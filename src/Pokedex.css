@@ -1,12 +1,27 @@
 .Pokedex{
+    padding: 10px 0 10px ;
+    border-radius: 30px;
+    margin: 30px auto;
+    background-color: rgb(255, 163, 163);
+    border:1px solid rgb(235, 143, 143);
+    max-width: 80vw;
+}
+
+.Pokedex > *{
+    padding: 0 30px;
+}
+
+.Pokedex .dexCards{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    max-width: 80vw;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: rgb(255, 163, 163);
-    border:1px solid rgb(235, 143, 143);;
-    border-radius: 30px;
+    padding-bottom: 20px;
     justify-content: center;
+    text-align: left;
+}
+
+.Pokedex .dexTitle{
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    padding: 10px 30px;
 }
