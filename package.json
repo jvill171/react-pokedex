@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jvill171.github.io/react-pokedex",
   "name": "react-pokedex",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://myusername.github.io/react-pokedex"
+  }
 }
