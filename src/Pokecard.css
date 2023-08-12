@@ -1,0 +1,30 @@
+.Pokecard{    
+    border: 1px solid pink;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 10px;
+    display: flex;
+    padding: 5px 25px;
+    align-items: center;
+    font-size: 0.8rem
+}
+.Pokecard:hover{
+    scale:105%;
+}
+
+.Pokecard > img{
+    transform:translate(-20px, 0);
+}
+
+.Pokecard ul{
+    list-style: none;
+    align-items: left;
+    padding:  200px auto;
+}
+
+.Pokecard li{
+    width: 100px;
+    transform:translate(-50px,0);
+    padding: 0 10px 10px 5px;
+}
